@@ -10,3 +10,9 @@ spring:
           username: cuilei192
           password: 1992cuilei
           default-label: master
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://192.168.204.130:8761/eureka/
